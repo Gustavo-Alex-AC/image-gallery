@@ -1,0 +1,97 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.form {
+  margin: 3rem auto;
+  text-align: center;
+
+  width: 25%;
+  padding: 2px 8px;
+  border-radius: 4px;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.166);
+}
+
+.form input {
+  border: none;
+  padding: 10px;
+  font-size: 1.5rem;
+}
+
+.button {
+  border: none;
+  background-color: rgb(89, 149, 129);
+  color: #fff;
+  padding: 8px 4px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 10px;
+  font-size: 1.6rem;
+}
+
+/* card style */
+
+.card-container {
+  max-width: 100rem;
+  margin: 0 auto;
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 5rem;
+  row-gap: 5rem;
+  align-items: center;
+}
+
+.card {
+  border-radius: 4px;
+  overflow: hidden;
+  box-shadow: 4px 6px 8px rgba(0, 0, 0, 0.164);
+}
+
+.card-image {
+  width: 100%;
+}
+
+.card-text-actor {
+  color: blueviolet;
+  font-weight: bold;
+}
+
+.card-text {
+  padding: 20px;
+}
+
+.card-text-actor {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+.photo-details {
+  font-size: 1.5rem;
+  margin-bottom: 3rem;
+}
+
+.tags {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  column-gap: 20px;
+  row-gap: 10px;
+  font-size: 1.3rem;
+}
+
+.tags p {
+  background-color: rgb(235, 235, 235);
+  padding: 2px 4px;
+  border-radius: 5px;
+}
+
+.message {
+  text-align: center;
+  font-size: 2.5rem;
+}
