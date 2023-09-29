@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 
 import CardContainer from "./CardContainer";
 import Search from "./Search";

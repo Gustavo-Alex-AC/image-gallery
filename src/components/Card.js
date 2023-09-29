@@ -6,7 +6,7 @@ export default function Card({ image }) {
     <div className="card">
       <img className="card-image" src={previewURL} alt={type} />
       <div className="card-text">
-        <p className="card-text-actor">Photo by {user}</p>
+        <p className="card-text-actor">Photo by ${user}</p>
 
         <div className="photo-details">
           <p>
